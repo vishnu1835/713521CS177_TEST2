@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Management System - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            background-image: url('bank-hero.jpg'); /* Replace with your image path */
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 100px 20px;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #007BFF;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .cta-button {
+            background: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .cta-button:hover {
+            background: #218838;
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .feature {
+            background: #e9ecef;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .newsletter {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .newsletter input[type="email"] {
+            padding: 10px;
+            width: 250px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .newsletter button {
+            padding: 10px 15px;
+            background: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .newsletter button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Bank</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="login.html">Login</a>
+            <a href="dashboard.html">Dashboard</a>
+            <a href="account.html">Account Details</a>
+            <a href="transactions.html">Transaction History</a>
+        </nav>
+    </header>
+
+    <div class="hero">
+        <h1>Your Trusted Banking Partner</h1>
+        <p>Manage your finances with ease and security.</p>
+        <a href="signup.html" class="cta-button">Get Started</a>
+    </div>
+
+    <main>
+        <section>
+            <h3>Our Services</h3>
+            <ul>
+                <li>Personal Banking</li>
+                <li>Business Accounts</li>
+                <li>Loans and Mortgages</li>
+                <li>Investment Services</li>
+                <li>Online Banking</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Customer Testimonials</h3>
+            <blockquote>
+                "The best banking experience I've ever had! Their customer service is top-notch." - Jane Doe
+            </blockquote>
+            <blockquote>
+                "I love the online banking features. It's so easy to manage my accounts!" - John Smith
+            </blockquote>
+        </section>
+
+        <section>
+            <h3>Get Started Today!</h3>
+            <p>Join us and take control of your financial future. Sign up for an account today!</p>
+            <a href="signup.html" class="cta-button">Sign Up Now</a>
+        </section>
+
+        <section>
+            <h3>Why Choose Us?</h3>
+            <div class="features">
+                <div class="feature">
+                    <h4>Secure Transactions</h4>
+                    <p>Your security is our priority. We use the latest technology to keep your information safe.</p>
+                </div>
+                <div class="feature">
+                    <h4>24/7 Customer Support</h4>
+                    <p>Our dedicated team is here to assist you anytime, day or night.</p>
+                </div>
+                <div class="feature">
+                    <h4>Easy Online Access</h4>
+                    <p>Manage your accounts from anywhere with our user-friendly online banking platform.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>Stay updated with the latest news and offers from our bank. Enter your email below:</p>
+            <input type="email" placeholder="Enter your email" required>
+            <button type="submit">Subscribe</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Bank Management System</p>
+    </footer>
+</body>
+</html>
